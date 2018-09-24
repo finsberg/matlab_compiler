@@ -8,7 +8,7 @@ Matlab desktop.
 Please check out [this
 link](https://se.mathworks.com/help/compiler_sdk/gs/create-a-python-application-with-matlab-code.html)
 for detailed instructions for how to use the Library compiler for the
-[magic square example](../examples/magic_square/README)
+[magic square example](../examples/magic_square/README.md)
 
 Note that in this case you will generate a lot more files that you
 need to install the package. You only need the files in the folder

@@ -33,5 +33,5 @@ without any errors.
 ## Running the compiled code
 In order to run the matlab code you need to first install the
 compiled python library
-See the [magic square exmaple](../example/magic_square/README) for a
+See the [magic square exmaple](../example/magic_square/README.md) for a
 practical example on how to compile a matlab code and running it in python.

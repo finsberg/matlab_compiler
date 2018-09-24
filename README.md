@@ -14,5 +14,5 @@ buying an expensive a Matlab license? Yes, that is possible!
 In this repo I will show you how.
 
 * [Installation instructions](docs/install.md)
-* [The Library Compiler](docs/library_compiler)
+* [The Library Compiler](docs/library_compiler.md)
 * [Magic Square example](examples/magic_square/README.md)
