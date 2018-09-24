@@ -15,4 +15,4 @@ In this repo I will show you how.
 
 * [Installation instructions](docs/install.md)
 * [The Library Compiler](docs/library_compiler)
-* [A simple hello worlds program](docs/hello_world.md)
+* [Magic Square exmaple](examples/magic_square/README.md)
