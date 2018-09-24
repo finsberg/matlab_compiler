@@ -17,7 +17,7 @@ toolboxes](https://se.mathworks.com/products/compiler/supported/compiler_support
 shows that many for many toolboxes you can appreciate all command line
 functionality.
 
-## <a href=install_python></a>For the python developer
+## <a href=install_pythonFor the python developer></a>
 
 To simply run the compiled code you only need a [MATLAB
 runtime](https://se.mathworks.com/products/compiler/matlab-runtime.html). 
@@ -101,4 +101,31 @@ program.
 
 ### Note to Windows user
 I haven't tried to install it on windows yet.
+
+
+## Alternatives to installation
+I can be time consuming an complicated to install the software on your
+local machince, in particular if you are not running on a linux
+machine. In this case, a very good alternative to installing the
+software is to use pre-built [Dokcer](https://www.docker.com)
+containers. In this repoistory there is a so called
+[`Dockerfile`](../Dockerfile) which contains instructions for how to
+build a linux container with Matlab2018b Runtime installed.
+To build this container you first need to change directory so that the
+Dockerfile is in you current directory then run the command
+```shell
+docker build -t matlab2018b_runtime .
+```
+This will create a docker container which is called
+`matlab2018b_runtime`. To run the container you can do
+the following
+```shell
+docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/shared -w /home/shared matlab2018b_runtime
+``
+This will open a new terminal where you are inside the container but
+also access to the files in the current directory. For more info about
+how to run the container you can run the following command `docker run
+--help`. In each example in this directory there is also a
+`Dockerfile` which can be used to run the example in a docker
+container. 
 
