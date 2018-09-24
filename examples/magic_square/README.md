@@ -59,13 +59,13 @@ import magic
 
 def main(n=5):
     
-	# Start a matlab engine
+    # Start a matlab engine
     eng = magic.initialize()
-	# Compute the magic square
+    # Compute the magic square
     square = eng.makesqr(n)
-	# Print it with each row on a separate line
+    # Print it with each row on a separate line
     print("\n".join([str(s) for s in square]))
-	# Shut down the matlab engine
+    # Shut down the matlab engine
     eng.terminate()
 
 if __name__ == "__main__":
@@ -75,6 +75,7 @@ if __name__ == "__main__":
         main(int(sys.argv[1]))
     else:
         main()
+
 ```
 
 ## Running the code in docker

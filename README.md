@@ -15,4 +15,4 @@ In this repo I will show you how.
 
 * [Installation instructions](docs/install.md)
 * [The Library Compiler](docs/library_compiler)
-* [Magic Square exmaple](examples/magic_square/README.md)
+* [Magic Square example](examples/magic_square/README.md)
