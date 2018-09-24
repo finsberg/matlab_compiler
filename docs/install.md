@@ -17,7 +17,7 @@ toolboxes](https://se.mathworks.com/products/compiler/supported/compiler_support
 shows that many for many toolboxes you can appreciate all command line
 functionality.
 
-## <a href=install_pythonFor the python developer></a>
+## For the python developer
 
 To simply run the compiled code you only need a [MATLAB
 runtime](https://se.mathworks.com/products/compiler/matlab-runtime.html). 
@@ -121,7 +121,7 @@ This will create a docker container which is called
 the following
 ```shell
 docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/shared -w /home/shared matlab2018b_runtime
-``
+```
 This will open a new terminal where you are inside the container but
 also access to the files in the current directory. For more info about
 how to run the container you can run the following command `docker run

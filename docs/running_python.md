@@ -1,6 +1,6 @@
 # Running Matlab in python
 
-## <a href=install_compiled>Installing the compiled python library</a>
+## Installing the compiled python library
 Once you have compiled the Matlab code using the command described in
 [Using the command line](#mcc_cli) you will have a new directory
 called `output_directory` and inside that folder you will some files
@@ -17,7 +17,7 @@ is imported in python-
 
 To install the package you need to make sure to update your
 `LD_LIBRARY_PATH` according to the [installation
-instructions](#install_python) and then install the package as by
+instructions](install) and then install the package as by
 calling
 
 ```shell
@@ -31,7 +31,7 @@ without any errors.
 
 
 ## Running the compiled code
-In order to run the matlab code you need to first [install the
-compiled python library](#install_compiled)
+In order to run the matlab code you need to first install the
+compiled python library
 See the [magic square exmaple](../example/magic_square/README) for a
 practical example on how to compile a matlab code and running it in python.

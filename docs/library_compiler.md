@@ -8,14 +8,14 @@ Matlab desktop.
 Please check out [this
 link](https://se.mathworks.com/help/compiler_sdk/gs/create-a-python-application-with-matlab-code.html)
 for detailed instructions for how to use the Library compiler for the
-[hello world problem](hello_world.md). 
+[magic square example](../examples/magic_square/README)
 
 Note that in this case you will generate a lot more files that you
 need to install the package. You only need the files in the folder
-`for_redistribution_files_only?`.
+`for_redistribution_files_only`.
 
 
-## <a name=mcc_cli></a> Using the command line 
+## Using the command line 
 In order to use the command line you need to be able the execute the
 `mcc` command. This is binary script that is located in the `bin`
 directory. Make sure the you `PATH` environment variable sees this
