@@ -15,4 +15,5 @@ In this repo I will show you how.
 
 * [Installation instructions](docs/install.md)
 * [The Library Compiler](docs/library_compiler.md)
+* [Running Matlab in python](docs/running_python.md)
 * [Magic Square example](examples/magic_square/README.md)

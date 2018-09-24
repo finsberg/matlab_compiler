@@ -16,6 +16,13 @@ y = magic(x);
 This function simply takes an integer as input and output the magic
 square. 
 ```matlab
+>> makesqr(3)
+
+ans =
+
+     8     1     6
+     3     5     7
+     4     9     2
 
 ```
 
