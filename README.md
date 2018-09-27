@@ -17,3 +17,4 @@ In this repo I will show you how.
 * [The Library Compiler](docs/library_compiler.md)
 * [Running Matlab in python](docs/running_python.md)
 * [Magic Square example](examples/magic_square/README.md)
+* [O'Hara Rudy Model example](examples/ohara_rudy/README.md)
