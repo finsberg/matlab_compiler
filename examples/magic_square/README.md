@@ -84,6 +84,13 @@ if __name__ == "__main__":
         main()
 
 ```
+Now running the code should give
+```shell
+$ python test.py 3
+[8.0,1.0,6.0]
+[3.0,5.0,7.0]
+[4.0,9.0,2.0]
+```
 
 ## Running the code in docker
 
